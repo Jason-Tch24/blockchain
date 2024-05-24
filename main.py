@@ -78,7 +78,6 @@ t6 = "David envoie 0.1 GC à Eric"
 myblockchain = Blockchain() # type: ignore
 
 =======
-myblockchain = Blockchain()
 >>>>>>> f968ade6057bda52292272fdd315f8d367f8eea1
 myblockchain.create_block_from_transaction([t1, t2])
 myblockchain.create_block_from_transaction([t3, t4])
@@ -87,5 +86,4 @@ myblockchain.create_block_from_transaction([t5, t6])
 <<<<<<< HEAD
 myblockchain.display_chain()
 =======
-myblockchain.display_chain()
 >>>>>>> f968ade6057bda52292272fdd315f8d367f8eea1
